@@ -12,6 +12,9 @@ Changes for APR 1.6.5
 
   *) Fix Win32 build breakage in apr_os_exp_time_put() in 1.6.4. [Rainer Jung]
      
+  *) Improve platform detection by updating config.guess and config.sub.
+     [Rainer Jung]
+
 Changes for APR 1.6.4 (not released)
 
   *) configure: Fix detection of <net/if.h> on OpenBSD.
